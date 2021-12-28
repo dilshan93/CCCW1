@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloWorld (1)" />
-        <module name="HelloWorld (2)" />
+        <module name="HelloWorld" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HelloWorld" target="11" />
       <module name="HelloWorld (1)" target="11" />
       <module name="HelloWorld (2)" target="11" />
     </bytecodeTargetLevel>
